@@ -12,5 +12,5 @@ for data in train_data:
 	cv2.imshow('test',img)
 	print(choice)
 	if cv2.waitKey(25) & 0xFF == ord('q'):
-		cv2.destroyWindow()
+		cv2.destroyAllWindows()
 		break
